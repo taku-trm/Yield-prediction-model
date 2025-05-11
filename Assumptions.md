@@ -6,3 +6,9 @@ The average of daily temperatures from March-July has the greatest impact on yie
 Seasonal average temperature affects yield and not the full year's average temperatures
 Annual Average rainfall is representative of corn planting season rainfall
 Farms under study are not irrigated
+The effect of pests is negligible as farms use adequate pest control measures
+No extreme weather phenomena occur 
+
+simplifications
+to ensure the model is tractable:
+Seasonal averages were used in place of monthly averages for fertilizer and temperature
