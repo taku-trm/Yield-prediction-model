@@ -42,3 +42,5 @@ def predict_yield(fertilizer, rainfall, temp):
 
 # Example use
 print(predict_yield(fertilizer=152, rainfall=262, temp=24))
+
+#predictin is in the 95% confidence interval
