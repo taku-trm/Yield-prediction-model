@@ -20,10 +20,10 @@ results = yield_model.fit()
 #print(results.summary())
 
 #comparison for validation
-#yield_model_data["Fitted"] = results.fittedvalues
-#yield_model_data[["Yield_tons_per_acre", "Fitted"]].plot(title="Actual vs Fitted Yield", figsize=(10,5))
-#plt.ylabel("Yield (tons/acre)")
-#plt.show()
+yield_model_data["Fitted"] = results.fittedvalues
+yield_model_data[["Yield_tons_per_acre", "Fitted"]].plot(title="Actual vs Fitted Yield", figsize=(10,5))
+plt.ylabel("Yield (tons/acre)")
+plt.show()
 
 #prediction trial: 
 def predict_yield(fertilizer, rainfall, temp):
