@@ -79,7 +79,7 @@ statsmodels
 Make sure you're in the project directory, then run:
 
 ```bash
-streamlit run app.py
+streamlit run yield_prediction_model_GUI.py
 ```
 
 This will open the app in your default web browser.
