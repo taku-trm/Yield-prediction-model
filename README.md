@@ -66,7 +66,7 @@ statsmodels
 
 ```
 .
-├── app.py                         # Main Streamlit app
+├── streamlit run yield_prediction_model_GUI.py                         # Main Streamlit app
 ├── corn_yield_model_data.csv     # Cleaned training data
 ├── README.md                     # Project documentation
 └── requirements.txt              # Python dependencies
